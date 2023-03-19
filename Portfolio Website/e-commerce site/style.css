@@ -1,0 +1,286 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  
+  /* Header styles */
+  
+  header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logo img {
+    padding-left: 40px;
+    height: 50px;
+  }
+  
+  nav {
+    flex: 2;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #ff6600;
+  }
+  
+  .search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+    transition: all 0.4s;
+  }
+
+  .search-bar input:focus{
+    outline: #ff6600; 
+    border: 1px solid#ff6600;
+  }
+  
+  .search-bar button {
+    background-color: #ff6600;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #ff9966;
+  }
+  
+  /* Main content styles */
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .featured-products {
+    margin-bottom: 40px;
+  }
+  
+  .featured-products h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .product {
+    width: 30%;
+    margin-right: 5%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 43%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: opacity 0.4s;
+  }
+  
+
+  .product img:hover{
+    opacity: 0.8;
+  }
+
+
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product button {
+    background-color: #ff6600;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .product button:hover {
+    background-color: #ff9966;
+  }
+  
+  .promotions {
+    margin-bottom: 40px;
+  }
+  
+  .promotions h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .promotion {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .promotion img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .promotion h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .promotion p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .promotion button {
+    background-color: #ff6600;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .promotion button:hover {
+    background-color: #ff9966;
+  }
+  
+  /* Footer styles */
+  
+  footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  .footer-links a:hover {
+    color: #ff6600;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-social-icons a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24px;
+    transition: color 0.2s;
+  }
+  
+  .footer-social-icons a:hover {
+    color: #ff6600;
+  }
+  
+
+
+  .social-media  img{
+    padding-left: 22px;
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.5s;
+  }
+
+  .social-media  img:hover{
+    opacity: 0.;
+    color: #ff9966;
+  }
+
+  .links{
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .links a{
+    padding-left: 22px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+  }
+
+  .links a:hover{
+    color: orange;
+  }
